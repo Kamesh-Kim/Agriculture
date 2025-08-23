@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+<link rel="icon" href="Favicon.svg">    
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<!-- css animation -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+</head>
+<body>
+
+<div><img src="Scroll up.svg" alt="" class="scroll-up" ></div>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+
+  <header class="header-flex">
+      <div><img src="Logo.svg" alt="" style="cursor: pointer;"></div>
+      <div class="menu-flex">
+      <ul class="home-line">Home</ul>
+      <ul class="abt-line">About us</ul>
+
+          <div class="dropdown service-line">
+            <div class="hover" style="display: flex; gap: 3px; align-items: center; text-align: center; ">
+              <ul class="dropbtn" style="padding: 0px 0px 0px 0px; margin: 0px 0px;">Services</ul>
+              <div class="dropbtn" style="margin-bottom: 0px; ">
+              <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="#ffffff" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </div>
+              
+            </div>
+            <div class="dropdown-content">
+              <a href="#">Safety and Secure </a>
+              <a href="#">Material things</a>
+              <a href="#">Proper Timing</a>
+              <a href="#">Excellent labours </a>
+            </div>
+          </div>
+          <ul class="project-line">Projects</ul>
+      <ul class="blog-line">Blog</ul>
+     </div>
+
+     
+     
+      <div class="btn-search">
+        <div class="close">
+          <i class="fa fa-close"></i>
+        </div>
+
+         <!---- search field ------->
+        <div class="search">
+          <i class="fa fa-search"></i>
+          <input type="text" class="input" placeholder="Search">
+        </div>
+        <button class="contact-btn">Contact us</button>
+        <!-- <div class="hamburger"> <img src="Menu.svg" alt="" style="width: 40px;"></div> -->
+
+         <nav class="mobile-menu">
+      	<!-- <a class="logo" href="/">YourLogo</a> -->
+      	<a href="#" class="hamburger-wrapper">
+      		<div class="hamburger-menu"></div>
+      	</a>
+      	<div class="mobile-menu-overlay">
+      		<ul>
+      			<li><a href="#">Home</a></li>
+      			<li><a href="#">About us</a></li>
+      			<li><a href="#">Services</a></li>
+      			<li><a href="#">Projects</a></li>
+      			<li><a href="#">Blog</a></li>
+      			<li><a href="#">Contact</a></li>
+      		</ul>
+      	</div>
+      </nav>
+
+      </div>
+    </header>
+
+<div class="banners-sections">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides slide">
+    <div class="numbertext">1 / 3</div>
+    <img src="Banner 1.jpg" class="banner-img">
+      <div class="banner-content">
+        <h1 class="banner-head">Cultivating Quality Harvesting Trust</h1>
+        <p class="para-head">At AGRO every seed we plant is a promise - a promise of purity, freshness, and care. With a deep commitment to sustainable farming and organic practices, we deliver produce that’s not only rich in nutrients but also grown with respect for nature.</p>
+        <div class="banner-btn-flex">
+          <button class="explore-btn">Explore Solutions</button>
+          <button class="request-btn">Request a Quote</button>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="mySlides slide">
+    <div class="numbertext">2 / 3</div>
+    <img src="Banner 2.jpg" class="banner-img">
+
+    <div class="banner-content">
+       <h1 class="banner-head">Rooted in Nature Growing for Future</h1>
+       <p class="para-head">Guided by time-tested traditions and empowered by modern innovation, our farm stays deeply connected to the earth while embracing the future of agriculture. We grow with purpose-preserving soil health, conserving water, and nurturing every crop naturally.</p>
+       <div class="banner-btn-flex">
+         <button class="explore-btn">Explore Solutions</button>
+         <button class="request-btn">Request a Quote</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mySlides slide">
+    <div class="numbertext">3 / 3</div>
+    <img src="Banner 3.jpg" class="banner-img">
+
+     <div class="banner-content">
+       <h1 class="banner-head">Our Farm to Your Home Naturally</h1>
+       <p class="para-head">Every product we grow is a reflection of our love for the land and our commitment to your well-being. At AGRO  we let nature lead the way using no harmful chemicals, only pure, organic methods. From sunrise harvests to careful packaging.</p>
+       <div class="banner-btn-flex">
+         <button class="explore-btn">Explore Solutions</button>
+         <button class="request-btn">Request a Quote</button>
+       </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div  class="three-dots">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- second section -->
+
+<div class="second-section">
+    <div class="second-sec-flex">
+       <h1 class="second-head" data-aos="fade-up" data-aos-delay="200">Welcome to AGRO</h1>
+       <div data-aos="fade-up" data-aos-delay="200"><img src="Second section line.svg" alt="" class="sencond-line"></div>
+       <div>
+         <p class="second-para" data-aos="fade-up" data-aos-delay="200">We’re a forward-thinking agro consulting firm helping agribusinesses grow smarter. From drone mapping to data-driven crop management, we guide you through every step of your agri-innovation journey.</p>
+         <div class="icons-flex">
+           <div class="smart" data-aos="zoom-in" data-aos-delay="200">
+             <img src="Smart Farming.svg" alt="">
+             <h3 class="second-title">Smart Farming Solutions</h3>
+           </div>
+
+           <div class="smart" data-aos="zoom-in" data-aos-delay="400">
+             <img src="Precision Agriculture.svg" alt="">
+             <h3 class="second-title">Precision Agriculture</h3>
+           </div>
+
+           <div class="smart" data-aos="zoom-in" data-aos-delay="600">
+             <img src="Sustainable Growth.svg" alt="">
+             <h3 class="second-title">Sustainable Growth</h3>
+           </div>
+
+           <div class="smart" data-aos="zoom-in" data-aos-delay="800">
+             <img src="End-to-End Guidance.svg" alt="">
+             <h3 class="second-title">End-to-End Guidance</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-third">
+  <div class="third-flex">
+      <img src="Third section image.jpg" alt="" class="third-sec-img">
+      <div class="rightside-content">
+         <h1 class="third-head" data-aos="fade-up" data-aos-delay="100">Through innovative tools and a deep respect for the land, we strive to</h1>
+
+            <div style="display: flex; gap: 6px;"  data-aos="fade-up" data-aos-delay="200">
+             <img src="Flower icon.svg" alt="" class="flower-icon">
+              <p class="bullet-point-third">Promote sustainable agriculture that protects soil and ecosystems</p>
+            </div>
+
+           <div style="display: flex; gap: 6px;" data-aos="fade-up" data-aos-delay="400">
+             <img src="Flower icon.svg" alt="" class="flower-icon">
+              <p class="bullet-point-third">Support large-scale efficiency with smart, scalable solutions</p>
+            </div>
+
+           <div style="display: flex; gap: 6px;" data-aos="fade-up" data-aos-delay="600">
+             <img src="Flower icon.svg" alt="" class="flower-icon">
+              <p class="bullet-point-third">Advance agri-innovation through cutting-edge technology and research.</p>
+            </div>
+
+           <div class="third-btn-flex" data-aos="fade-up" data-aos-delay="700">
+             <button class="solution-btn">Explore Solutions</button>
+             <button class="service-btn">Our Services</button>
+           </div>
+
+
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container-four">
+<div class="forth-flex">
+  <div class="forth-left-side">
+    <h1 class="forth-head" data-aos="fade-up" data-aos-delay="100">Smart Farming Starts Here</h1>
+    <p class="forth-para" data-aos="fade-up" data-aos-delay="200">Discover our comprehensive range of agriculture solutions designed for performance, sustainability, and scale</p>
+       <div class="arrows-forth" data-aos="fade-up" data-aos-delay="300">
+          <div class="swiper-prev"><img src="Left arrow forth.svg" alt="" class="left-arrow"></div>
+          <div class="swiper-next"><img src="Right arrow forth.svg" alt="" class="right-arrow"></div>
+       </div>
+
+       <div class="forth-link-btn" data-aos="fade-up" data-aos-delay="300">
+         <p class="forth-link-btn-text">View all services</p>
+         <img src="Button arrow.svg" alt="">
+      </div>
+  </div>
+
+
+
+  <!-- rightside -->
+   
+<!-- HTML -->
+<div class="silder-flex">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
+        <div class="hover-thing">
+             <img src="Black Gradient.svg" alt="" class="black-gardient">
+             <div class="hover-content">
+                 <h2 class="hover-head">Soil Health & Management</h2>
+                 <p class="hover-para">Discover our comprehensive range of agriculture solutions</p>
+                 <div class="fifth-link-btn">
+                   <p class="fifth-link-btn-text">Know more</p>
+                   <img src="Button arrow.svg" alt="">
+                 </div>
+               </div>
+        </div>
+        <img src="Slide 1.jpg" alt="" class="slide-img">
+        
+      </div>
+      <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
+            <div class="hover-thing">
+             <img src="Black Gradient.svg" alt="" class="black-gardient">
+             <div class="hover-content">
+                 <h2 class="hover-head">Advanced Irrigation</h2>
+                 <p class="hover-para">In the evolving landscape of modern agriculture.</p>
+                 <div class="fifth-link-btn">
+                   <p class="fifth-link-btn-text">Know more</p>
+                   <img src="Button arrow.svg" alt="">
+                 </div>
+               </div>
+        </div>
+        <img src="Slide 2.jpg" alt="" class="slide-img">
+      </div>
+      <div class="swiper-slide" data-aos="fade-up" data-aos-delay="800">
+            <div class="hover-thing">
+             <img src="Black Gradient.svg" alt="" class="black-gardient">
+             <div class="hover-content">
+                 <h2 class="hover-head">Precision Agriculture</h2>
+                 <p class="hover-para">Modern farming management approach.</p>
+                 <div class="fifth-link-btn">
+                   <p class="fifth-link-btn-text">Know more</p>
+                   <img src="Button arrow.svg" alt="">
+                 </div>
+               </div>
+        </div>
+        <img src="Slide 3.jpg" alt="" class="slide-img">
+      </div>
+      <div class="swiper-slide" data-aos="fade-up" data-aos-delay="800">
+            <div class="hover-thing">
+             <img src="Black Gradient.svg" alt="" class="black-gardient">
+             <div class="hover-content">
+                 <h2 class="hover-head">Crop Rotation</h2>
+                 <p class="hover-para">Crop rotation is a common agronomic practice.</p>
+                 <div class="fifth-link-btn">
+                   <p class="fifth-link-btn-text">Know more</p>
+                   <img src="Button arrow.svg" alt="">
+                 </div>
+               </div>
+        </div>
+        <img src="Slide 4.jpg" alt="" class="slide-img">
+      </div>
+      <div class="swiper-slide" data-aos="fade-up" data-aos-delay="800">
+
+                    <div class="hover-thing">
+             <img src="Black Gradient.svg" alt="" class="black-gardient">
+             <div class="hover-content">
+                 <h2 class="hover-head">Scalable Farming</h2>
+                 <p class="hover-para">Crop rotation is a common agronomic practice.</p>
+                 <div class="fifth-link-btn">
+                   <p class="fifth-link-btn-text">Know more</p>
+                   <img src="Button arrow.svg" alt="">
+                 </div>
+               </div>
+        </div>
+        <img src="Slide 5.jpg" alt="" class="slide-img">
+
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <!-- Navigation buttons -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+
+    <!-- Scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<!-- Fifth section -->
+
+<div class="container-five">
+  <div class="head-fifth-flex" data-aos="fade-up" data-aos-delay="100">
+    <h1 class="fifth-head1">Why Choose Us</h1>
+    <img src="fifth line.svg" alt="" style="margin-right: 10px; margin-top: 0;" class="fifth-line">
+      <div>
+        <h2 class="fifth-head2">Leading the Way in Smart, Scalable Farming</h2>
+        <p class="fifth-para">We blend innovation with proven agronomic knowledge to help your agribusiness thrive in a rapidly evolving landscape.</p>
+      </div> 
+  </div>
+
+  <div class="card-flex">
+    <div class="card-1" data-aos="fade-up" data-aos-delay="200">
+       <img src="Innovation-Driven.svg" alt="">
+       <h3 class="card-title">Innovation-Driven</h3>
+       <p class="card-para">We use AI, IoT, and machine learning to support smarter decisions in real time.</p>
+  
+         <div class="card-link-btn">
+            <p class="card-link-btn-text">Know more</p>
+            <img src="Button arrow.svg" alt="">
+        </div>
+    </div>
+
+        <div class="card-1" data-aos="fade-up" data-aos-delay="300">
+       <img src="Sustainability.svg" alt="">
+       <h3 class="card-title">Sustainability First</h3>
+       <p class="card-para">Every solution we offer is designed to protect soil, water, and ecosystems.</p>
+  
+         <div class="card-link-btn">
+            <p class="card-link-btn-text">Know more</p>
+            <img src="Button arrow.svg" alt="">
+        </div>
+    </div>
+
+        <div class="card-1" alt="" data-aos="fade-up" data-aos-delay="400">
+       <img src="Proven Results.svg" >
+       <h3 class="card-title">Proven Results</h3>
+       <p class="card-para">Higher yields, lower costs, and improved sustainability.</p>
+  
+         <div class="card-link-btn" style="margin-top: 45px;">
+            <p class="card-link-btn-text">Know more</p>
+            <img src="Button arrow.svg" alt="">
+        </div>
+    </div>
+
+        <div class="card-1" data-aos="fade-up" data-aos-delay="500">
+       <img src="Farm Test.svg" alt="">
+       <h3 class="card-title">Farm Test Expertise</h3>
+       <p class="card-para">Developed by farmers, for farmers backed by agronomists and tech experts.</p>
+  
+         <div class="card-link-btn">
+            <p class="card-link-btn-text">Know more</p>
+            <img src="Button arrow.svg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-6">
+  <img src="Sixth image.jpg" alt="" class="sixth-img">
+   <div class="results-flex" data-aos="fade-up" data-aos-delay="200">
+     <h1 class="results-head">Results That Speak for Themselves</h1>
+       <div class="first-number">
+         <h1 class="number-head1">125K+</h1>
+         <h2 class="number-head2">Acres Managed</h2>
+         <p class="number-para">Across precision farming, irrigation, and crop rotation programs.</p>
+       </div>
+
+      <div class="second-number">
+         <h1 class="number-head1">15K+</h1>
+         <h2 class="number-head2">Years of Innovation</h2>
+         <p class="number-para">Bringing a product cutting-edge solutions to the fields since 1996.</p>
+       </div>
+   </div>
+
+   <div class="sixth-bottom-flex" data-aos="fade-up" data-aos-delay="200">
+    <div class="average">
+      <img src="Average Yield Increase.svg" alt="" >
+      <h2 class="average-head">Average Yield Increase</h2>
+      <h1 class="average-num">15%</h1>
+    </div>
+
+    <img src="Sixth Line.svg" alt="" class="sixth-line">
+
+
+    <div class="average">
+      <img src="Reduction.svg" alt="">
+      <h2 class="average-head">Reduction in Input Costs</h2>
+      <h1 class="average-num">30%</h1>
+    </div>
+
+    <img src="Sixth Line.svg" alt="" class="sixth-line">
+
+        <div class="average">
+      <img src="Client Satisfaction.svg" alt="">
+      <h2 class="average-head">Client Satisfaction</h2>
+      <h1 class="average-num">20%</h1>
+    </div>
+
+ 
+   </div>
+
+</div>
+
+
+
+
+<div class="container-seven">
+<div class="seven-flex">
+  <div class="seven-left-side" data-aos="fade-up" data-aos-delay="500">
+    <h1 class="seven-head">What Our Clients Say</h1>
+    <p class="seven-para">"Real Stories. Real Results. Hear from those who’ve experienced the difference."</p>
+       <!-- <div class="arrows-forth">
+          <div class="swiper-prev"><img src="Left arrow forth.svg" alt=""></div>
+          <div class="swiper-next"><img src="Right arrow forth.svg" alt=""></div>
+       </div> -->
+
+       <!-- <div class="forth-link-btn">
+         <p class="forth-link-btn-text">View all services</p>
+         <img src="Button arrow.svg" alt="">
+      </div> -->
+  </div>
+
+
+
+  <!-- rightside -->
+   
+<!-- HTML -->
+<div class="review-flex">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="review-card1">
+           <img src="Close braket.svg" alt="">
+           <p class="review-text">Working with Agribusiness has completely transformed our operations. Their precision agriculture strategy helped us cut input costs by 25% and boost yield in just one season.</p>
+           <div class="person-flex">
+             <img src="Person 1.svg" alt="">
+             <div>
+               <h2 class="person-name">Daniel Kim</h2>
+               <p class="person-desination">Agrisense Technologies</p>
+             </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="swiper-slide">
+          <div class="review-card1">
+           <img src="Close braket.svg" alt="">
+           <p class="review-text">Together with Agribusiness, we implemented a farm-to-market strategy that reduced post-harvest loss by 40%. Their logistical expertise and community-first mindset created..</p>
+           <div class="person-flex">
+             <img src="Person 2.svg" alt="">
+             <div>
+               <h2 class="person-name">Elena López</h2>
+               <p class="person-desination">Co-Owner, Finca Verde</p>
+             </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="swiper-slide">
+          <div class="review-card1">
+           <img src="Close braket.svg" alt="">
+           <p class="review-text">We collaborated with Agribusiness to improve crop yields. Their data-driven approach and commitment to local farmer engagement led to a 30% productivity increase.</p>
+           <div class="person-flex">
+             <img src="Person 3.svg" alt="">
+             <div>
+               <h2 class="person-name">Elliot Reynolds</h2>
+               <p class="person-desination">CEO, FutureAgri</p>
+             </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="swiper-slide">
+          <div class="review-card1">
+           <img src="Close braket.svg" alt="">
+           <p class="review-text">Agribusiness’s technical team helped us pilot and scale our IoT sensor system on actual farms. The feedback and collaboration were crucial to our product’s success.</p>
+           <div class="person-flex">
+             <img src="Person 4.svg" alt="">
+             <div>
+               <h2 class="person-name">Debbie Smith</h2>
+               <p class="person-desination">Operations Director</p>
+             </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="swiper-slide">
+          <div class="review-card1">
+           <img src="Close braket.svg" alt="">
+           <p class="review-text">We partnered with Agribusiness for a sustainable farming initiative across three countries. Their insights and on-the-ground expertise were delivering impact.</p>
+           <div class="person-flex">
+             <img src="Person 5.svg" alt="">
+             <div>
+               <h2 class="person-name">Elliot Reynolds</h2>
+               <p class="person-desination">CEO, FutureAgri </p>
+             </div>
+           </div>
+         </div>
+
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <!-- Navigation buttons -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+
+    <!-- Scrollbar -->
+    <div class="swiper-scrollbar color"></div>
+  </div>
+</div>
+</div>
+</div>
+  
+
+
+
+
+<div class="footer">
+  <div class="footer-flex">
+    <div>
+      <img src="Footer logo.svg" alt="">
+      <p class="footer-para">Working with Agribusiness has completely transformed our operations.</p>
+    </div>
+
+    <div>
+      <h2 class="footer-title">Our Services</h2>
+      <ul class="footer-link">Advanced Irrigation Systems</ul>
+      <ul class="footer-link">Crop Rotation Planning</ul>
+      <ul class="footer-link">Precision Agriculture</ul>
+      <ul class="footer-link">Quality Control & Grading</ul>
+      <ul class="footer-link">Seed Supply & Distribution</ul>
+      <ul class="footer-link">Soil Health & Management</ul>   
+    </div>
+
+    <div>
+      <h2 class="footer-title">Pages</h2>
+      <ul class="footer-link">Shop</ul>
+      <ul class="footer-link">Our services</ul>
+      <ul class="footer-link">Blog</ul>
+      <ul class="footer-link">Contact us</ul>
+      <ul class="footer-link">Image Credits</ul>
+    </div>
+
+    <div>
+      <h2 class="footer-title">About us</h2>
+      <ul class="footer-link">History for Agro</ul>
+      <ul class="footer-link">Concept Building</ul>
+      <ul class="footer-link">Locations</ul>
+      <ul class="footer-link">Franchise </ul>
+    </div>
+
+    <div class="social-media">
+      <h2 class="footer-title">Social Media</h2>
+      <img src="FB.svg" alt="">
+      <img src="Insta.svg" alt="">
+      <img src="Twitter.svg" alt="">
+      <img src="YT.svg" alt="">
+    </div>
+  </div>
+
+  <div class="privacy-bg">
+    <h2 class="privacy-policy">All Rights reserved   |  Privacy Policy</h2>
+  </div>
+
+</div>
+
+  
+    <script src="app.js"></script>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,  // animation duration in ms
+    once: true       // animate only once per element
+  });
+</script>
+</body>
+</html>
